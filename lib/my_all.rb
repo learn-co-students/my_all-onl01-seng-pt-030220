@@ -6,6 +6,7 @@ def my_all?(collection)
   while i < collection.length 
     block_return_values << yield(collection[i])
     i += 1 
+    #binding.pry 
   end 
 
 # my_all?([1,2,3]) {|i| i < 2}
